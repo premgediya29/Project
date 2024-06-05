@@ -1,0 +1,348 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    background-image: url(image/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header .subheader{
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+header .subheader .menu{
+    flex-basis: 60%;
+    height: 120px;
+    /* border: 1px solid black; */
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    line-height: 120px;
+    justify-content: space-evenly;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+.name{
+    width: 60%;
+    height: 625px;
+    /* border: 1px solid black; */
+    margin-left: 20%;   
+}
+.name .logo{
+    width: 60%;
+    height: 625px;
+    margin-left: 20%;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+.name .logo{
+    text-align: center;
+}
+.name h1{
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 200px;
+}
+.name p{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.name button{
+    width: 150px;
+    border: 5px solid black;
+    margin-top: 20px;
+    height: 40px;
+    background-color: bisque;
+}
+.ourstory{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.story{
+    flex-basis: 60%;
+    height: 500px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.story h1{
+    color: gray ;
+    margin-top: 110PX;
+    font-size: 60px;
+    margin-bottom: 20PX;
+}
+.story h6{
+    font-size: 18px;
+    color: rgb(224, 185, 85);
+    margin-bottom: 10PX;
+}
+.story p{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 10PX;
+}
+.story b{
+    font-size: 50px;
+}
+.story h4{
+    color: rgb(40, 37, 37);
+    font: 20px;
+}
+.gallary{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+    background-image: url(image/wedding.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wedding{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    background-color: rgb(229, 220, 198);
+}
+.wedding .thewedding{
+    width: 60%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-left: 20%;
+}
+.thewedding h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    color: white;
+}
+.thew{
+    width: 60%;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin-left: 20%; 
+    display: flex;
+    align-items: center;
+}
+.thew .when{
+    width: 50%;
+    height: 250px;
+    border-right: 1px solid gray;
+    text-align: center;
+}
+.when h1{
+    font-size: 25px;
+    color: rgb(215, 205, 205);
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.when p{
+    color: rgb(215, 205, 205);
+}
+.thew .where{
+    width: 50%;
+    height: 250px;
+    text-align: center;
+}
+.where h1{
+    font-size: 25px;
+    color: rgb(215, 205, 205);
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.where p{
+    color: rgb(215, 205, 205);
+}
+.button{
+    width: 60%;
+    height: 100px;
+    /* border: 1px solid black; */
+    margin-left: 20%;
+    text-align: center;
+    line-height: 100PX;
+}
+.button button{
+    width: 150px;
+    border: 3px solid gray;
+    color: gray;
+    height: 40px;
+    background-color: rgb(224, 185, 85);
+}
+.gettingthere{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    background-image: url(image/waterfall.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.there{
+    width: 50%;
+    height: 600px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.there h1{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.there h3{
+    color: white;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.there p{
+    color: aliceblue;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.there a{
+    width: 150px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 30px;
+    color: bisque;
+    border: 1px solid white;
+}
+.regestry{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+.regestry .paregraph{
+    width: 60%;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-left: 20%;
+    text-align: center;
+}
+.paregraph h1{
+    color: rgb(224, 185, 85);
+    font-size: 40px;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.paregraph p{
+    color: gray;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.regestry .brandlogo{
+    width: 60%;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin-left: 20%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+	align-items: center;
+}
+.brandlogo .logos1{
+    flex-basis: 26%;
+    height: 80px;
+    /* border: 1px solid black; */
+    background-image: url(image/logo1.webp);
+    background-repeat: no-repeat;
+    line-height: 150px;
+}
+.brandlogo .logos2{
+    flex-basis: 26%;
+    height: 80px;
+    /* border: 1px solid black; */
+    background-image: url(image/logo2.webp);
+    background-repeat: no-repeat;
+    line-height: 150px;
+}
+.brandlogo .logos3{
+    flex-basis: 26%;
+    height: 80px;
+    /* border: 1px solid black; */
+    background-image: url(image/logo3.webp);
+    background-repeat: no-repeat;
+    line-height: 150px;
+}
+.brandlogo .logos4{
+    flex-basis: 26%;
+    height: 80px;
+    /* border: 1px solid black; */
+    background-image: url(image/logo4.webp);
+    background-repeat: no-repeat;
+    line-height: 150px;
+}
+.brandlogo .logos5{
+    flex-basis: 26%;
+    height: 80px;
+    /* border: 1px solid black; */
+    background-image: url(image/logo5.webp);
+    background-repeat: no-repeat;
+    line-height: 150px;
+}
+.brandlogo .logos6{
+    flex-basis: 26%;
+    height: 80px;
+    /* border: 1px solid black; */
+    background-image: url(image/logo6.webp);
+    background-repeat: no-repeat;
+    line-height: 150px;
+}
+.rsvp{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color:rgb(224, 185, 85) ;
+    display: flex;
+    justify-content: center;
+}
+.rsvp .rs{
+    flex-basis: 60%;
+    height: 300px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.rs h1{
+    color: rgb(144, 114, 114);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 70px;
+}
+.rs button{
+    width: 150px;
+    border: 3px solid black;
+    color: gray;
+    height: 40px;
+    background-color: rgb(224, 185, 85);
+    margin-top: 50PX;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 20px;
+    padding: 25px;
+    background-color: aquamarine;
+}
+footer a{
+    color: black;
+}
